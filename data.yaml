@@ -1,0 +1,13 @@
+train: /home/ray/dev/PDI/aps/poring.v1i.yolov8/train/images
+val: /home/ray/dev/PDI/aps/poring.v1i.yolov8/valid/images
+test: /home/ray/dev/PDI/aps/poring.v1i.yolov8/test/images
+
+nc: 1
+names: ['0']
+
+roboflow:
+  workspace: pdiaps
+  project: poring
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pdiaps/poring/dataset/1
