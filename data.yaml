@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: /home/ghzeni/utfpr/pdi-trab-final/yolo8PDI/train/images
+val: /home/ghzeni/utfpr/pdi-trab-final/yolo8PDI/valid/images
+test: /home/ghzeni/utfpr/pdi-trab-final/yolo8PDI/test/images
 
 nc: 4
 names: ['bat', 'poporing', 'skeleton', 'zombie']
