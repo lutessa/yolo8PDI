@@ -1,17 +1,13 @@
-train: D:/UTFPR/2023-2/pdi/projeto_final/yolo8PDI/train/images
-val: D:/UTFPR/2023-2/pdi/projeto_final/yolo8PDI/valid/images
-test: D:/UTFPR/2023-2/pdi/projeto_final/yolo8PDI/test/images
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
 nc: 4
-names:
-  0: skeleton
-  1: zombie
-  2: poporing
-  3: bat
+names: ['bat', 'poporing', 'skeleton', 'zombie']
 
 roboflow:
-  workspace: pdiaps
-  project: poring
+  workspace: pdi-a1jw2
+  project: ragnarok-online-enemy-detector
   version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/pdiaps/poring/dataset/1
+  url: https://universe.roboflow.com/pdi-a1jw2/ragnarok-online-enemy-detector/dataset/1

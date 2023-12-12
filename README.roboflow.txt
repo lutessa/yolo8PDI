@@ -1,8 +1,8 @@
 
-poring - v1 2023-11-24 10:16pm
+Ragnarok Online Enemy Detector - v1 2023-12-12 1:54am
 ==============================
 
-This dataset was exported via roboflow.com on November 25, 2023 at 1:18 AM GMT
+This dataset was exported via roboflow.com on December 12, 2023 at 4:56 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,10 +17,12 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 324 images.
-Poring are annotated in YOLOv8 format.
+The dataset includes 489 images.
+Enemies are annotated in YOLOv8 format.
 
 The following pre-processing was applied to each image:
+* Auto-orientation of pixel data (with EXIF-orientation stripping)
+* Resize to 640x640 (Stretch)
 
 No image augmentation techniques were applied.
 

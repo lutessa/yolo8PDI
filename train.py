@@ -11,11 +11,11 @@ if device == "0":
 
 print("Device: ", device)
 
-# Create a new YOLO model from scratch
-model = YOLO('yolov8n.yaml').load('yolov8n.pt')  # build from YAML and transfer weights
+# # Create a new YOLO model from scratch
+# model = YOLO('yolov8n.yaml').load('yolov8n.pt')  # build from YAML and transfer weights
 
-# Train the model using the 'coco128.yaml' dataset for 3 epochs
-results = model.train(data='data.yaml', epochs=100)
+# # Train the model using the 'coco128.yaml' dataset for 3 epochs
+# results = model.train(data='data.yaml', epochs=100)
 
-# Evaluate the model's performance on the validation set
-results = model.val()
+# # Evaluate the model's performance on the validation set
+# results = model.val()
