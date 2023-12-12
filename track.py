@@ -1,5 +1,5 @@
 from ultralytics import YOLO
 
-model = YOLO('/home/ray/dev/PDI/aps/poring.v1i.yolov8/runs/detect/train5/weights/best.pt')
+model = YOLO('D:/UTFPR/2023-2/pdi/projeto_final/yolo8PDI/runs/detect/train20/weights/best.pt')
 
-results = model.track(source="video.mp4", save=True)
+results = model.track(source="D:/UTFPR/2023-2/pdi/projeto_final/yolo8PDI/video/pay_dun00.mp4", save=True)
