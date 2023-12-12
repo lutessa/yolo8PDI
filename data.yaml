@@ -1,9 +1,13 @@
-train: /home/ray/dev/PDI/aps/poring.v1i.yolov8/train/images
-val: /home/ray/dev/PDI/aps/poring.v1i.yolov8/valid/images
-test: /home/ray/dev/PDI/aps/poring.v1i.yolov8/test/images
+train: D:/UTFPR/2023-2/pdi/projeto_final/yolo8PDI/train/images
+val: D:/UTFPR/2023-2/pdi/projeto_final/yolo8PDI/valid/images
+test: D:/UTFPR/2023-2/pdi/projeto_final/yolo8PDI/test/images
 
-nc: 1
-names: ['0']
+nc: 4
+names:
+  0: skeleton
+  1: zombie
+  2: poporing
+  3: bat
 
 roboflow:
   workspace: pdiaps
